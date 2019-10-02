@@ -15,35 +15,44 @@ Scrobble to Last.fm when listening to music on Discord using Fredboat
 
 **Edit source code to get your bot to scrobble to your lastfm!**
 
-You'll need bots authorization token, insert that on line 20 in 'botload.py'
+1. You'll need bots authorization token, which you will find under the information about this app bot user, once you *click to reveal token*
 
-EXAMPLE: TOKEN = "NTk5MDE5NTM4ODE4MDA3MDU1.XSfGyA.ZmD23e7VijZ7n_so0NNVwfhF7NE"
+Insert token on line 20 in 'botload.py'
+ EXAMPLE: 
 
-* Add in your own username & password
+``` python
+TOKEN = "NTk5MDE5NTM4ODE4MDA3MDU1.XSfGyA.ZmD23e7VijZ7n_so0NNVwfhF7NE"
+```
 
-username = ""
+2. Add in your own username & password
 
-password_hash = pylast.md5("")
+```python
+username = "username"
+password_hash = pylast.md5("password")
+```
 
 EXAMPLE:
->username = "scrobble_bot"
+```python
+> username = "scrobble_bot"
+> password_hash = pylast.md5("mypr0ject!")
+```
 
->password_hash = pylast.md5("mypr0ject!")
+3. For each additional member of server that wants to scrobble
 
-* For each additional member of server that wants to scrobble
-
-above @client.event add:
+*above '@client.event' in code (line 33 in original)* add:
  
+```python
 username_n = ""
 password_hash_n = pylast.md5("")
 
 network_n = pylast.LastFMNetwork(api_key=API_KEY, api_secret=API_SECRET,
                          username=username_n, password_hash_n=password_hash)
+```                    
                     
-                    
-Below @client.event add:
+*below @client.event* add:
+```python 
 network_n.scrobble(artist="{}".format(songartist), title="{}".format(songtitle),timestamp=int(time.time()))
-
+```
 **Using Bot**
 
 from your commandline, run botload.py 
