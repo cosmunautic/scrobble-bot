@@ -42,8 +42,8 @@ EXAMPLE:
 *above '@client.event' in code (line 33 in original)* add:
  
 ```python
-username_n = ""
-password_hash_n = pylast.md5("")
+username_n = "username_n"
+password_hash_n = pylast.md5("password_n")
 
 network_n = pylast.LastFMNetwork(api_key=API_KEY, api_secret=API_SECRET,
                          username=username_n, password_hash_n=password_hash)
@@ -70,6 +70,7 @@ As you play music using Fredboat **you will need to copy, paste and send the mes
 For example: 
 
 > Fredboat: Song #1 has been selected: The Hotelier - Goodness Pt. 2 (04:00)]
+
 > you: Song #1 has been selected: The Hotelier - Goodness Pt. 2 (04:00)]
 
 scrobblebot will respond with song title and artist that it has scrobbled to your account!!
