@@ -14,7 +14,7 @@ Scrobble to Last.fm when listening to music on Discord using Fredboat
 3: Add bot to desired server, find client ID under App Details and go to url https://discordapp.com/oauth2/authorize?&client_id=CLIENTID&scope=bot&permissions=8
 
 
-**Edit source code to get your bot to scrobble to your lastfm!**
+### **Edit source code to get your bot to scrobble to your lastfm!**
 
 1. You'll need bots authorization token, which you will find under the information about this app bot user, once you *click to reveal token*
 
@@ -55,13 +55,11 @@ network_n = pylast.LastFMNetwork(api_key=API_KEY, api_secret=API_SECRET,
 ```python 
 network_n.scrobble(artist="{}".format(songartist), title="{}".format(songtitle),timestamp=int(time.time()))
 ```
-**Using Bot**
-*Download dependencies, as outlined in dependencies.md file in repository8
+### **Using Bot**
+###### Download dependencies, as outlined in dependencies.md file in repository
 
 
-from your commandline, run botload.py 
-
-> $python botload.py
+``` $ python botload.py ```
 
 Your bot will then appear online in your server! 
 
