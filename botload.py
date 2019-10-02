@@ -18,9 +18,12 @@ BOT_PREFIX = ("**", "Song #")
 TOKEN = "NTk5MDE5NTM4ODE4MDA3MDU1.XSfGyA.ZmD23e7VijZ7n_so0NNVwfhF7NE"
 client = Bot(command_prefix=BOT_PREFIX)
 
+#insert your own password here
+username = ""
+password_hash = pylast.md5("")
+
 username_w = "scrobble_bot"
 password_hash_w = pylast.md5("mypr0ject!")
-
 
 
 network = pylast.LastFMNetwork(api_key=API_KEY, api_secret=API_SECRET,
