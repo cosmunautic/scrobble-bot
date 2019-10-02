@@ -1,3 +1,5 @@
+There are a few packages that aren't included in your stdlib that you'll need to run this bot..
+
 ## Must use Python 2.7 or later
 
 [pylast](https://github.com/pylast/pylast)
@@ -5,6 +7,8 @@
 ```$ pip install pylast ```
 
 [discord.py](https://discordpy.readthedocs.io/en/latest/intro.html#installing)
+
+```python3 -m pip install -U discord.py```
 
 [requests](https://pypi.org/project/requests/)
 
