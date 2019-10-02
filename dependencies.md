@@ -1,7 +1,4 @@
 There are a few packages that aren't included in your stdlib that you'll need to run this bot..
-In order to use the discord package, you must use Python 2.7 or later
-
-You can use pip to grab all packages!
 
 * [pylast](https://github.com/pylast/pylast)
 
