@@ -1,7 +1,5 @@
 There are a few packages that aren't included in your stdlib that you'll need to run this bot..
 
-## Must use Python 2.7 or later
-
 [pylast](https://github.com/pylast/pylast)
 
 ```$ pip install pylast ```
@@ -17,3 +15,5 @@ There are a few packages that aren't included in your stdlib that you'll need to
 ### If using Python 3.3
 * asynchio will not be included in your stdlib, to install:
 ```$ pip install asynchio ```
+
+### Must use Python 2.7 or later
