@@ -1,7 +1,8 @@
 Scrobble to Last.fm when listening to music on Discord using Fredboat
 --
+##### Python 2.7 or later
 
-## You'll want to use this code as a baseline to create your own bot to be used in your own personal servers!
+### Use this code as a baseline to create your own bot for your personal servers!
 
 
 **Create Bot**
