@@ -36,6 +36,7 @@ EXAMPLE:
 > username = "scrobble_bot"
 > password_hash = pylast.md5("mypr0ject!")
 ```
+##### *note: by default, all scrobbles that result from use of this code will track to last.fm user scrobble_bot, you can easily remove this, but I think it'll be fun to have <3*
 
 3. For each additional member of server that wants to scrobble
 
