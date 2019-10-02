@@ -58,7 +58,7 @@ network_n.scrobble(artist="{}".format(songartist), title="{}".format(songtitle),
 ### **Using Bot**
 ###### Download dependencies, as outlined in dependencies.md file in repository
 
-
+From commandline: 
 ``` $ python botload.py ```
 
 Your bot will then appear online in your server! 
