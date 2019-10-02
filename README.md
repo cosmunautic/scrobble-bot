@@ -1,6 +1,6 @@
 Scrobble to Last.fm when listening to music on Discord using Fredboat
 --
-##### Python 2.7 or later
+##### Requires Python 2.7 or later
 
 ### Use this code as a baseline to create your own bot for your personal servers!
 
@@ -56,9 +56,10 @@ network_n = pylast.LastFMNetwork(api_key=API_KEY, api_secret=API_SECRET,
 network_n.scrobble(artist="{}".format(songartist), title="{}".format(songtitle),timestamp=int(time.time()))
 ```
 **Using Bot**
+*Download dependencies, as outlined in dependencies.md file in repository8
+
 
 from your commandline, run botload.py 
-(If within directory containing code)
 
 > $python botload.py
 
