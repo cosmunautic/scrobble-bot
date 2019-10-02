@@ -1,5 +1,7 @@
 Scrobble to Last.fm when listening to music on Discord using Fredboat
 --
+Send any questions to jas#2940 on Discord, @capn_jas on Twitter, or jasminsilva808@gmail.com
+
 ##### Requires Python 2.7 or later
 
 ### Use this code as a baseline to create your own bot for your personal servers!
