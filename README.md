@@ -1,8 +1,7 @@
 Scrobble to Last.fm when listening to music on Discord using Fredboat
 --
-## You'll want to use this code as a baseline to create your own bot to be used in your own personal servers!
 
-Disclaimer: I made this for personal use, it is a little irritating to use, but after hours of time listening to music with lost scrobbles I created this simple tool. The biggest flaw is in the fact that Fredboat's responses (and those of most bots) are formatted with blank space etc. so that other bots don't respond. Always remember, after song selection, copy Fred's message that confirms your choice, that is how you will scrobble. ^_^
+## You'll want to use this code as a baseline to create your own bot to be used in your own personal servers!
 
 
 **Create Bot**
@@ -23,8 +22,8 @@ username = ""
 password_hash = pylast.md5("")
 
 EXAMPLE:
-username = "scrobble_bot"
-password_hash = pylast.md5("mypr0ject!")
+>username = "scrobble_bot"
+>password_hash = pylast.md5("mypr0ject!")
 
 * For each additional member of server that wants to scrobble
 
@@ -43,16 +42,20 @@ network_n.scrobble(artist="{}".format(songartist), title="{}".format(songtitle),
 **Using Bot**
 
 from your commandline, run botload.py 
-(If within its directory)
-$python botload.py
+(If within directory containing code)
+> $python botload.py
 
 Your bot will then appear online in your server! 
+
+##### *Disclaimer: I made this for personal use, after hours of time listening to music with lost scrobbles I created this simple tool to keep track of music I listened to with my pals. It is a little irritating to use..The biggest flaw is in the fact that Fredboat's responses (and those of most bots) are formatted with blank space etc. so that other bots don't respond.
+
+##### To get around this, after song selection: copy and re-send Fred's message that confirms your choice, that is how you will scrobble. ^_^ 
 
 As you play music using Fredboat **you will need to copy, paste and send the message displayed by Fred** after you choose an option to play. 
 For example: 
 
-Fredboat: Song #1 has been selected: The Hotelier - Goodness Pt. 2 (04:00)]
-you: Song #1 has been selected: The Hotelier - Goodness Pt. 2 (04:00)]
+> Fredboat: Song #1 has been selected: The Hotelier - Goodness Pt. 2 (04:00)]
+> you: Song #1 has been selected: The Hotelier - Goodness Pt. 2 (04:00)]
 
 scrobblebot will respond with song title and artist that it has scrobbled to your account!!
 
