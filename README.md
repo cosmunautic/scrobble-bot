@@ -15,6 +15,8 @@ Scrobble to Last.fm when listening to music on Discord using Fredboat
 
 
 ### **Edit source code to get your bot to scrobble to your lastfm!**
+Put source code in home directory, or a directory that is easy to access and edit as follows:
+
 
 1. You'll need bots authorization token, which you will find under the information about this app bot user, once you *click to reveal token*
 
