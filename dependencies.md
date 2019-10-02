@@ -1,4 +1,4 @@
-There are a few packages that aren't included in your stdlib that you'll need to run this bot..
+#### scrobble-bot is dependent upon these packages:
 
 * [pylast](https://github.com/pylast/pylast)
 
@@ -6,7 +6,7 @@ There are a few packages that aren't included in your stdlib that you'll need to
 
 * [discord.py](https://discordpy.readthedocs.io/en/latest/intro.html#installing)
 
-```python3 -m pip install -U discord.py```
+```$ python3 -m pip install -U discord.py```
 
 * [requests](https://pypi.org/project/requests/)
 
@@ -14,6 +14,7 @@ There are a few packages that aren't included in your stdlib that you'll need to
 
 ### If using Python 3.3
 * asynchio will not be included in your stdlib, to install:
+
 ```$ pip install asynchio ```
 
 
